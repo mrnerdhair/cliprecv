@@ -1,0 +1,23 @@
+{
+  "name": "cliprecv",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "qrcode-js": "0.0.2",
+    "tweetnacl": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-builder": "^20.13.3"
+  }
+}
